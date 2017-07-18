@@ -1,0 +1,32 @@
+{
+    "name": "chemem/bingo-conveyor",
+    "description": "A simple HTML view conveyor for the Bingo Framework.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Lochemem Bruno Michael",
+            "email": "lochbm@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "mustache/mustache": "^2.11",
+        "phpunit/phpunit": "5.7"
+    },
+    "suggest": {
+        "pug-php/pug": "HAML-based template engine for PHP"
+    },
+    "license": "Apache",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chemem\\Bingo\\Conveyor\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": "true",
+        "preferred-install": "dist"
+    }
+}
