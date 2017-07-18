@@ -1,4 +1,4 @@
-# Bingo Model
+# Bingo Conveyor
 
 A simple HTML view conveyor for the Bingo Framework.
 
